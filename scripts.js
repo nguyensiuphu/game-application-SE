@@ -8,7 +8,7 @@ let firstCard, secondCard;
 function flipCard() { 
     if (lockBoard) return; // if cards not match, lock the board
     if(this === firstCard) return; 
-    this.classList.add('flip'); 
+    this.classList.toggle('flip'); 
 
     if(!hasFlippedCard){
         hasFlippedCard=true; 

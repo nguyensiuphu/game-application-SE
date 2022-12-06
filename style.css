@@ -35,11 +35,12 @@
   .memory-card:active {
     transform: scale(0.97);
     transition: transform .2s;
+      transform: rotateY(180deg);
   }
   
   .memory-card.flip {
-/*     transform: rotateY(180deg); */
-     rotate: y 180deg; 
+    transform: rotateY(180deg);
+    
   }
   
   .front-face,
